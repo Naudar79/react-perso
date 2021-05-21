@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Démo React</title>
+    <!-- Dans ce fichier nous allons transformer une simple page HTML en fichier REACT-->
+</head>
+
+<body>
+    <div id="root">Bonjour openClassroom</div>
+
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        function MyComponent() { return (
+        <div>Mon compostant apparait bien </div>) } // const MyComponent = () => div /> [est une fonction fléchée qui remplace le bloc précédent] ReactDOM.render(
+        <MyComponent />, document.getElementById('root'))
+    </script>
+
+</body>
+
+</html>

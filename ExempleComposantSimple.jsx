@@ -1,3 +1,5 @@
+const { firebrick } = require("color-name");
+
 class HelloMessage extends React.Component {
     render() {
       return (
